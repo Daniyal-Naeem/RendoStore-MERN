@@ -18,11 +18,11 @@ const Header = () => {
                   <i className='fas fa-shopping-cart'></i> Cart
                 </Nav.Link>
               </LinkContainer>
-              {/* <LinkContainer to='/login'>
+              <LinkContainer to='/productlist'>
                 <Nav.Link>
-                  <i className='fas fa-user'></i> Sign In
+                <i className="fas fa-list"></i> Product list
                 </Nav.Link>
-              </LinkContainer> */}
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>
